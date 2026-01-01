@@ -12,6 +12,8 @@ mkdir my_first_app
 cd my_first_app
 ```
 
+
+
 Paste all project files into this folder, then run:
 
 ```bash
@@ -158,4 +160,4 @@ Required screenshots:
 * `Post DB.png` – Posts table
 * api routes
 
-
+![image alt](https://github.com/Djkhalz/Tau-Sen-305-Assignment/blob/b85b6214f7fd55e084bb9cc2794729b32cf9f67e/screenshots/api.routes.png)
