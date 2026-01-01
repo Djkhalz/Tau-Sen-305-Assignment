@@ -57,7 +57,7 @@ Inside tinker:
 ```php
 App\\Models\\User::create([
   'name' => 'Admin',
-  'email' => 'philipsuccess101@gmail.com',
+  'email' => 'ainafolahanblogsystem.com',
   'password' => bcrypt('password123'),
   'role' => 'admin'
 ]);
@@ -87,7 +87,7 @@ http://localhost:8000
 ```bash
 curl -X POST http://localhost:8000/api/auth/login ^
  -H "Content-Type: application/json" ^
- -d "{\"email\":\"philipsuccess101@gmail.com\",\"password\":\"password123\"}"
+ -d "{\"email\":\"ainafolahanblogsystem.com\",\"password\":\"password123\"}"
 ```
 
 ### 2. Test Profile (Replace YOUR_TOKEN)
@@ -153,13 +153,8 @@ Required screenshots:
 * `Admin login.png` – Admin login page
 * `admin dashboard.png` – Admin dashboard
 * `createpost.png` – Create post form
-* `token response.png` – JWT token response
-* `api posts.png` – Posts API response
 * `Login DB.png` – Users table
 * `Post DB.png` – Posts table
 
----
 
-## ..........Notes.............
 
-This project was developed for **Web Application Development Assignment** using Laravel and JWT authentication.
