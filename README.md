@@ -7,8 +7,8 @@
 
 ```bash
 cd /path/to/laragon/www
-mkdir BlogAssignment
-cd BlogAssignment
+mkdir my_first_app
+cd my_first_app
 ```
 
 Paste all project files into this folder, then run:
@@ -27,13 +27,13 @@ php artisan jwt:secret
 1. Create a MySQL database named:
 
 ```
-BlogAssignment
+my_first_app
 ```
 
 2. Update `.env` file:
 
 ```
-DB_DATABASE=BlogAssignment
+DB_DATABASE=my_first_app
 DB_USERNAME=root
 DB_PASSWORD=
 ```
@@ -119,7 +119,7 @@ curl http://localhost:8000/api/posts
 ```bash
 curl -X POST http://localhost:8000/api/posts/test-post-slug/comments ^
  -H "Content-Type: application/json" ^
- -d "{\"author\":\"John Doe\",\"content\":\"Great article!\"}"
+ -d "{\"author\":\"aina folahan\",\"content\":\"Great article!\"}"
 ```
 
 ---
