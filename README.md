@@ -1,5 +1,6 @@
-# Tau-Sen-305-Assignment
-# Laravel Blog Assignment
+
+# Laravel my_first_app
+
 
 ## ..........Setup Project.............
 
@@ -155,6 +156,6 @@ Required screenshots:
 * `createpost.png` – Create post form
 * `Login DB.png` – Users table
 * `Post DB.png` – Posts table
-
+* api routes
 
 
